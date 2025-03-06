@@ -1,0 +1,72 @@
+{
+  "_components-p9-prxNC.js": {
+    "file": "assets/components-p9-prxNC.js",
+    "name": "components",
+    "imports": [
+      "_routing-C7kPugZy.js"
+    ]
+  },
+  "_myData-DU8IxEDy.js": {
+    "file": "assets/myData-DU8IxEDy.js",
+    "name": "myData",
+    "imports": [
+      "_routing-C7kPugZy.js"
+    ]
+  },
+  "_routing-C7kPugZy.js": {
+    "file": "assets/routing-C7kPugZy.js",
+    "name": "routing"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-BVZVsrlX.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-C7kPugZy.js",
+      "_components-p9-prxNC.js"
+    ]
+  },
+  "src/routes/curriculum.tsx?pick=default&pick=$css": {
+    "file": "assets/curriculum-Bxgkaob9.js",
+    "name": "curriculum",
+    "src": "src/routes/curriculum.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-C7kPugZy.js",
+      "_myData-DU8IxEDy.js",
+      "_components-p9-prxNC.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-Bv48K24h.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-C7kPugZy.js",
+      "_myData-DU8IxEDy.js",
+      "_components-p9-prxNC.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-ATHWOIbT.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_routing-C7kPugZy.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/curriculum.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-B1j7gl6_.css"
+    ]
+  }
+}
