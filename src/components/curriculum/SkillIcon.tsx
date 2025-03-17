@@ -18,16 +18,14 @@ export const SkillIcon = (props: SkillIconProps) => {
       class="flex flex-col items-center w-16"
     >
       <div
-        class={`transition-all w-12 h-12 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-full hover:scale-105 active:scale-95 hover:shadow-sm ${glowColor}`}
+        class={`transition-all w-12 h-12 flex items-center justify-center bg-gray-100 rounded-full hover:scale-105 active:scale-95 hover:shadow-sm ${glowColor}`}
       >
         {(() => {
           const Icon = props.icon;
-          return <Icon size={30} class="text-gray-800 dark:text-gray-200" />;
+          return <Icon size={30} class="text-gray-800" />;
         })()}
       </div>
-      <span class="text-sm mt-1 text-center text-gray-700 dark:text-gray-300">
-        {props.name}
-      </span>
+      <span class="text-sm mt-1 text-center text-gray-700">{props.name}</span>
     </A>
   );
 };
