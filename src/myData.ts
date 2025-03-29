@@ -26,10 +26,10 @@ function getCurrentAge(): string {
   return `${age} anos`;
 }
 
-export default {
+const data = {
   name: "Luís Silva",
   photo: "https://github.com/yspoof.png",
-  bio: "Sou um entusiasta da tecnologia com foco em desenvolvimento WEB. Gosto de aprender coisas novas e criar soluções performáticas.",
+  bio: "Sou um entusiasta da tecnologia atualmente com foco em desenvolvimento WEB. Gosto de aprender coisas novas e criar soluções performáticas.",
   age: getCurrentAge(),
   location: "São Paulo, SP",
   jobTitle: "Desenvolvedor Web • Técnico de T.I",
@@ -39,7 +39,7 @@ export default {
     github: "https://github.com/yspoof",
     linkedin: "https://www.linkedin.com/in/luís-silva-607b94356",
   },
-  programmingSkills: [
+  programmingTech: [
     {
       name: "Angular",
       icon: FaBrandsAngular,
@@ -80,7 +80,7 @@ export default {
       name: "Tailwind",
       icon: SiTailwindcss,
       link: "https://tailwindcss.com/",
-      glowColor: "shadow-teal-500",
+      glowColor: "shadow-cyan-500",
     },
     {
       name: "TypeScript",
@@ -97,16 +97,6 @@ export default {
   ],
   skills: [
     {
-      name: "Inglês",
-      level: "Avançado",
-      description: "Conversação, escrita e leitura.",
-    },
-    {
-      name: "Linux",
-      level: "Intermediário",
-      description: "Administralção de servidores.",
-    },
-    {
       name: "Docker",
       level: "Iniciante",
       description: "Orquestração de containers via Compose.",
@@ -115,6 +105,16 @@ export default {
       name: "Google Admin",
       level: "Intermediário",
       description: "Gerenciamento de dispositivos e usuários.",
+    },
+    {
+      name: "Inglês",
+      level: "Avançado",
+      description: "Conversação, escrita e leitura.",
+    },
+    {
+      name: "Linux",
+      level: "Intermediário",
+      description: "Administralção de servidores.",
     },
   ],
   education: [
@@ -130,14 +130,17 @@ export default {
       title: "Auxiliar de T.I",
       company: "Institudo de Educação São José",
       description:
-        "Presto suporte técnico para mais de 200 estudantes e professores. Gerencio a rede com 2 links dedicados e 3 unidades separadas, utilizando equipamentos Unifi e um pfSense de gateway. Cuido do cadastro de emails de funcionários e do gerenciamento de mais de 300 Chromebooks via Google Admin. Gerencio também um servidor local que utiliza Arch Linux.",
+        "Presto suporte técnico para mais de 250 usuários incluindo estudantes e professores, garantindo o funcionamento adequado dos sistemas e dispositivos.\n\nGerencio a infraestrutura de rede, que conta com 2 links dedicados e 3 unidades físicas separadas, utilizando equipamentos Unifi e um firewall pfSense como gateway principal.\n\nTambém sou responsável pelo cadastro e manutenção de contas de e-mail institucionais para funcionários, além do gerenciamento centralizado de mais de 300 Chromebooks através do Google Admin onde fiz diversos scripts para automatizar e facilitar tais tarefas utilizando GoogleScript e a API do Google.\n\nOutra das minhas atribuições inclui a administração de um servidor local baseado em Arch Linux, utilizado para serviços internos e armazenamento de dados.",
     },
     {
       date: "2020 -> 2023",
       title: "Técnico de Informática",
       company: "Jornal Cenário de Notícias",
       description:
-        "Cuidava da rede composta por 3 links dedicados, um servidor Debian, máquinas dos colaboradores e demais equipamentos além de gerenciar a manutenção do site tvcenario.com feito em WordPress.",
+        "Realizava a administração da rede corporativa, composta por 3 links dedicados, garantindo estabilidade e desempenho.\n\nFiz a implementação e zelava pela manutenção de um servidor Debian que exercia funções como: Armazenamento centralizado de arquivos, servia de ambiente de testes para WordPress e atuava como serviço de DNS Cache para otimização do tráfego de rede, consegui automatizar várias taréfas com Docker e scritps em Bash e ZSH.\n\nPrestava suporte técnico aos colaboradores, incluindo manutenção de desktops, equipamentos de TI e infraestrutura audiovisual (câmeras, mesas de mistura e sistemas de transmissão).\n\nCuidava do site tvcenario.com feito em WordPress.\n\nCoordenava transmissões ao vivo para programas diversificados como cobertura de eventos corporativos e públicos, transmissão de notícias, sorteios e programas especiais.",
     },
   ],
 };
+
+export default data;
+export type MyData = typeof data;
