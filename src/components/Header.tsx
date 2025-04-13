@@ -1,6 +1,7 @@
 import { CgSandClock } from "solid-icons/cg";
 import { FaSolidLocationDot } from "solid-icons/fa";
 import { MyData } from "../myData";
+import SimplifiedVersion from "./SimplifiedVersion";
 
 interface props {
   userData: MyData;
@@ -8,7 +9,7 @@ interface props {
 
 export default function Header({ userData }: props) {
   return (
-    <div class="bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-stone-800 dark:to-stone-700 text-white dark:text-stone-300 p-6 md:p-8">
+    <div class="bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-stone-800 dark:to-stone-700 text-white dark:text-stone-300 p-6 md:p-8 flex justify-between items-center">
       <div class="flex flex-col md:flex-row gap-6 items-center">
         <img
           src={userData.photo}
@@ -23,7 +24,6 @@ export default function Header({ userData }: props) {
             {userData.jobTitle}
           </h2>
           <p class="mt-3 max-w-xl text-blue-50">{userData.bio}</p>
-
           <div class="flex flex-wrap gap-4 mt-4 justify-center md:justify-start">
             <div class="flex items-center gap-2">
               <FaSolidLocationDot size={20} class="self-start" />
@@ -36,6 +36,7 @@ export default function Header({ userData }: props) {
           </div>
         </div>
       </div>
+      <SimplifiedVersion />
     </div>
   );
 }

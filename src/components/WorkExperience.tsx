@@ -17,11 +17,11 @@ export default function WorkExperience({ userData }: props) {
             <div class="relative pl-6 border-l-2 border-blue-300 dark:border-stone-400">
               <div class="absolute -left-1.5 top-0 h-3 w-3 rounded-full bg-cyan-500 dark:bg-stone-300"></div>
               <div class="mb-1">
-                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center">
-                  <h4 class="font-bold text-gray-800 dark:text-stone-200">
+                <div class="flex flex-row justify-between items-center my-4 md:my-2">
+                  <h4 class="text-pretty font-bold text-gray-800 dark:text-stone-200">
                     {job.title}
                   </h4>
-                  <span class="text-sm font-medium text-blue-600 dark:text-stone-200 bg-blue-50 dark:bg-stone-600 px-3 py-1 rounded-full">
+                  <span class="text-nowrap text-sm font-medium text-blue-600 dark:text-stone-200 bg-blue-50 dark:bg-stone-600 px-3 py-1 rounded-full">
                     {job.date}
                   </span>
                 </div>

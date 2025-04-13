@@ -12,17 +12,18 @@ export default function ProgrammingTech({ userData }: props) {
       <h3 class="text-xl font-semibold text-blue-700 dark:text-stone-300  mb-4 border-b border-blue-200 dark:border-stone-200 pb-2">
         Tecnologias
       </h3>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div class="grid grid-cols-3 gap-4">
         <For each={userData.programmingTech}>
           {(skill) => (
             <a
               href={skill.link}
               target="_blank"
               rel="noopener noreferrer"
-              class={`flex flex-col items-center gap-2 p-4 rounded-lg bg-white dark:bg-stone-200 hover:bg-opacity-80 transition-all hover:-translate-y-1 ${skill.glowColor} hover:shadow-md`}
-            >
+              class={`flex flex-col items-center gap-2 p-4 rounded-lg bg-white dark:bg-stone-200 hover:bg-opacity-80 transition-all hover:-translate-y-1 ${skill.glowColor} hover:shadow-md`}>
               <Dynamic component={skill.icon} class="h-8 w-8 text-gray-700" />
-              <span class="font-medium text-gray-800">{skill.name}</span>
+              <span class="text-xs md:text-base font-medium text-gray-800">
+                {skill.name}
+              </span>
             </a>
           )}
         </For>

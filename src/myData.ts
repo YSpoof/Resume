@@ -29,10 +29,11 @@ function getCurrentAge(): string {
 const data = {
   name: "Luís Silva",
   photo: "https://github.com/yspoof.png",
-  bio: "Sou um entusiasta da tecnologia atualmente com foco em desenvolvimento WEB. Gosto de aprender coisas novas e criar soluções performáticas.",
+  bio: "Sou um entusiasta da tecnologia atualmente com foco em desenvolvimento FrontEnd. Gosto de aprender coisas novas e criar soluções performáticas.",
   age: getCurrentAge(),
   location: "São Paulo, SP",
-  jobTitle: "Desenvolvedor Web • Técnico de T.I",
+  jobTitle: "Desenvolvedor Front-End • Técnico de T.I",
+  pdfVersion: "/cv-luis-silva.pdf",
   contact: {
     email: "luis@lzart.com.br",
     website: "https://lzart.com.br",
@@ -71,13 +72,13 @@ const data = {
       glowColor: "shadow-purple-500",
     },
     {
-      name: "Solid",
+      name: "SolidJS",
       icon: TbBrandSolidjs,
       link: "https://www.solidjs.com/",
       glowColor: "shadow-blue-300",
     },
     {
-      name: "Tailwind",
+      name: "TailwindCSS",
       icon: SiTailwindcss,
       link: "https://tailwindcss.com/",
       glowColor: "shadow-cyan-500",
@@ -89,7 +90,7 @@ const data = {
       glowColor: "shadow-blue-400",
     },
     {
-      name: "Vue",
+      name: "Vue.js",
       icon: FaBrandsVuejs,
       link: "https://vuejs.org/",
       glowColor: "shadow-green-300",
@@ -128,7 +129,7 @@ const data = {
     {
       date: "2023 -> Atual",
       title: "Auxiliar de T.I",
-      company: "Institudo de Educação São José",
+      company: "Instituto de Educação São José",
       description:
         "Presto suporte técnico para mais de 250 usuários incluindo estudantes e professores, garantindo o funcionamento adequado dos sistemas e dispositivos.\n\nGerencio a infraestrutura de rede, que conta com 2 links dedicados e 3 unidades físicas separadas, utilizando equipamentos Unifi e um firewall pfSense como gateway principal.\n\nTambém sou responsável pelo cadastro e manutenção de contas de e-mail institucionais para funcionários, além do gerenciamento centralizado de mais de 300 Chromebooks através do Google Admin onde fiz diversos scripts para automatizar e facilitar tais tarefas utilizando GoogleScript e a API do Google.\n\nOutra das minhas atribuições inclui a administração de um servidor local baseado em Arch Linux, utilizado para serviços internos e armazenamento de dados.",
     },

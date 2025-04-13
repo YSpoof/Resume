@@ -7,6 +7,7 @@ import ProgrammingTech from "./components/ProgrammingTech";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import userData from "./myData";
+import SimplifiedVersion from "./components/SimplifiedVersion";
 
 const Curriculum: Component = () => {
   return (
@@ -40,6 +41,7 @@ const Curriculum: Component = () => {
         </div>
 
         {/* Footer */}
+        <SimplifiedVersion line={true} />
         <Footer userData={userData} />
       </div>
     </div>
