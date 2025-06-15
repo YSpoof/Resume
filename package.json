@@ -3,19 +3,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "pnpm run generate",
     "dev": "nuxt dev",
     "generate": "rm -rf docs; nuxt generate && mv .output/public docs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/fonts": "0.11.2",
-    "@nuxt/icon": "1.12.0",
-    "@tailwindcss/vite": "^4.1.5",
-    "nuxt": "^3.17.2",
-    "tailwindcss": "^4.1.5",
-    "vue": "^3.5.13",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.14.0",
+    "@tailwindcss/vite": "^4.1.10",
+    "nuxt": "^3.17.5",
+    "tailwindcss": "^4.1.10",
+    "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   }
 }
