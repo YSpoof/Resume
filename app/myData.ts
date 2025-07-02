@@ -28,7 +28,7 @@ const data = {
     email: "luis@lzart.com.br",
     website: "https://lzart.com.br",
     github: "https://github.com/yspoof",
-    linkedin: "https://www.linkedin.com/in/luís-silva-607b94356",
+    linkedin: "https://linkedin.com/in/notluissilva/",
   },
   programmingTech: [
     {
@@ -84,6 +84,12 @@ const data = {
       icon: "vscode-icons:file-type-vue",
       link: "https://vuejs.org/",
       glowColor: "shadow-green-300",
+    },
+    {
+      name: "Zod",
+      icon: "logos:zod",
+      link: "https://zod.dev/",
+      glowColor: "shadow-blue-200",
     },
   ],
   skills: [
@@ -144,6 +150,13 @@ const data = {
       company: "Jornal Cenário de Notícias",
       description:
         "Realizava a administração da rede corporativa, composta por 3 links dedicados, garantindo estabilidade e desempenho.\n\nFiz a implementação e zelava pela manutenção de um servidor Debian que exercia funções como: Armazenamento centralizado de arquivos, servia de ambiente de testes para WordPress e atuava como serviço de DNS Cache para otimização do tráfego de rede, consegui automatizar várias taréfas com Docker e scritps em Bash e ZSH.\n\nPrestava suporte técnico aos colaboradores, incluindo manutenção de desktops, equipamentos de TI e infraestrutura audiovisual (câmeras, mesas de mistura e sistemas de transmissão).\n\nCuidava do site tvcenario.com feito em WordPress.\n\nCoordenava transmissões ao vivo para programas diversificados como cobertura de eventos corporativos e públicos, transmissão de notícias, sorteios e programas especiais.",
+    },
+    {
+      date: "2019 -> Atual",
+      title: "Consultor Freelance",
+      company: "~~~",
+      description:
+        "Desde Novembro de 2019, atuo como Consultor Freelance com foco em desenvolvimento frontend, entregando soluções de alta qualidade que aliam performance robusta e excelente experiência do usuário.\n\nTenho trabalhado com uma variedade de tecnologias modernas, incluindo HTML, SCSS, JavaScript, TypeScript, Angular (8+), Angular Material, Vue.js, Nuxt, TailwindCSS, Bootstrap e DrizzleORM.\n\nNo dia a dia, também faço uso de Git para versionamento, Bash para automações e Nitro como servidor backend em aplicações Nuxt.\n\nMeu objetivo é sempre atender às necessidades dos clientes com soluções escaláveis, modernas e bem estruturadas.",
     },
   ],
 };
