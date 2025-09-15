@@ -138,7 +138,14 @@ const data = {
   ],
   jobs: [
     {
-      date: "2023 -> Atual",
+      date: "2025 -> Atual",
+      title: "Desenvolvedor Front-end Pleno",
+      company: "Extreme Digital Solutions",
+      description:
+        "Atuo na EDS utilizando o framework Angular 8+, TypeScript, HTML, CSS/SCSS para a estilização de componentes. Minha função inclui a criação de componentes reutilizáveis e modulares, diferentes views em aplicações e otimização das mesmas, sempre seguindo os padrões de mercado e boas práticas de desenvolvimento.\n\nAlém disso, faço uso do Angular Material para a construção de interfaces de usuário responsivas e acessíveis, garantindo uma experiência consistente em diferentes dispositivos.\n\nUtilizo Git para controle de versão e colaboração em equipe, além de Bash para automações diversas no ambiente de desenvolvimento.\n\nTrabalho em estreita colaboração com designers, desenvolvedores backend e outros membros da equipe para garantir que os requisitos do projeto sejam atendidos e que as soluções entregues sejam escaláveis e de alta qualidade.",
+    },
+    {
+      date: "2023 -> 2025",
       title: "Auxiliar de T.I",
       company: "Instituto de Educação São José",
       description:
@@ -156,7 +163,7 @@ const data = {
       title: "Consultor Freelance",
       company: "~~~",
       description:
-        "Desde Novembro de 2019, atuo como Consultor Freelance com foco em desenvolvimento frontend, entregando soluções de alta qualidade que aliam performance robusta e excelente experiência do usuário.\n\nTenho trabalhado com uma variedade de tecnologias modernas, incluindo HTML, SCSS, JavaScript, TypeScript, Angular (8+), Angular Material, Vue.js, Nuxt, TailwindCSS, Bootstrap e DrizzleORM.\n\nNo dia a dia, também faço uso de Git para versionamento, Bash para automações e Nitro como servidor backend em aplicações Nuxt.\n\nMeu objetivo é sempre atender às necessidades dos clientes com soluções escaláveis, modernas e bem estruturadas.",
+        "Desde Novembro de 2019, atuo como Consultor Freelance com foco em desenvolvimento frontend, entregando soluções de alta qualidade que aliam performance robusta e excelente experiência do usuário.\n\nTenho trabalhado com uma variedade de tecnologias modernas, incluindo HTML, SCSS, JavaScript, TypeScript, Angular (8+), Angular Material, Vue.js, Nuxt, TailwindCSS, Bootstrap e DrizzleORM.\n\nNo dia a dia, também faço uso de Git para versionamento, Bash para automações e Nitro como servidor backend.\n\nMeu objetivo é sempre atender às necessidades dos clientes com soluções escaláveis, modernas e bem estruturadas.",
     },
   ],
 };
