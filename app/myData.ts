@@ -101,7 +101,7 @@ const data = {
     {
       name: "Linux",
       level: "Avançado",
-      description: "Administralção de servidores.",
+      description: "Administração de servidores.",
     },
     {
       name: "Google Admin",
