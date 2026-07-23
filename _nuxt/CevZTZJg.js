@@ -1,1 +1,0 @@
-import{H as e,V as t,f as n,p as r,y as i}from"./PMilSLQf.js";function a(n){let r=n||i();return r.ssrContext?.head||r.runWithContext(()=>{if(t()){let t=e(`usehead`);if(!t)throw Error(`[nuxt] [unhead] Missing Unhead instance.`);return t}})}function o(e,t={}){return r(e,{head:t.head||a(t.nuxt),...t})}export{o as t};
