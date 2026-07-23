@@ -44,6 +44,12 @@ const data = {
       glowColor: "shadow-yellow-500",
     },
     {
+      name: "Docker",
+      icon: "logos:docker-icon",
+      link: "https://www.docker.com/",
+      glowColor: "shadow-blue-500",
+    },
+    {
       name: "Drizzle",
       icon: "material-icon-theme:drizzle",
       link: "https://orm.drizzle.team/",
@@ -53,7 +59,19 @@ const data = {
       name: "Git",
       icon: "vscode-icons:file-type-git",
       link: "https://git-scm.com/",
-      glowColor: "shadow-blue-500",
+      glowColor: "shadow-red-500",
+    },
+    {
+      name: "Gitea",
+      icon: "devicon:gitea",
+      link: "https://gitea.io/",
+      glowColor: "shadow-green-200",
+    },
+    {
+      name: "Linux",
+      icon: "logos:linux-tux",
+      link: "https://www.linux.org/",
+      glowColor: "shadow-yellow-200",
     },
     {
       name: "Nitro",
@@ -66,6 +84,18 @@ const data = {
       icon: "vscode-icons:file-type-nuxt",
       link: "https://nuxt.com/",
       glowColor: "shadow-green-600",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "logos:postgresql",
+      link: "https://www.postgresql.org/",
+      glowColor: "shadow-blue-500",
+    },
+    {
+      name: "SvelteKit",
+      icon: "vscode-icons:file-type-svelte",
+      link: "https://kit.svelte.dev/",
+      glowColor: "shadow-orange-500",
     },
     {
       name: "TailwindCSS",
@@ -89,7 +119,7 @@ const data = {
       name: "Zod",
       icon: "logos:zod",
       link: "https://zod.dev/",
-      glowColor: "shadow-blue-200",
+      glowColor: "shadow-blue-800",
     },
   ],
   skills: [

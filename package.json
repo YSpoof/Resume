@@ -1,31 +1,44 @@
 {
-  "name": "my-resume",
+  "name": "sveltebase",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "pnpm run generate",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "predeploy": "pnpm run generate",
-    "deploy": "gh-pages -t -d dist/"
-  },
-  "dependencies": {
-    "@nuxt/fonts": "0.14.0",
-    "@nuxt/icon": "2.2.1",
-    "@tailwindcss/vite": "^4.2.2",
-    "nuxt": "^4.4.2",
-    "tailwindcss": "^4.2.2",
-    "vue": "^3.5.30",
-    "vue-router": "^5.0.4"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo '' && husky",
+    "precommit": "lint-staged",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -t -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@iconify-json/devicon": "^1.2.62",
+    "@iconify-json/logos": "^1.2.11",
+    "@iconify-json/material-icon-theme": "^1.2.69",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/unjs": "^1.2.4",
+    "@iconify-json/vscode-icons": "^1.2.67",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.70.1",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.1.1",
+    "gh-pages": "^6.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.1.1",
+    "oxfmt": "^0.60.0",
+    "svelte": "^5.56.7",
+    "svelte-check": "^4.7.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "unplugin-icons": "^23.0.1",
+    "vite": "^8.1.5"
   },
-  "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite"
-    }
-  }
+  "lint-staged": {
+    "*.{json,ts,js,svelte}": "oxfmt"
+  },
+  "packageManager": "pnpm@11.17.0"
 }
